@@ -6,13 +6,15 @@ indicators of compromise, mapped attacker techniques to MITRE ATT&CK, and
 produced a triage report.
 
 ## Tools 
-Any.Run, VirusTotal, MXToolbox
+- Any.Run
+- VirusTotal
+- MXToolbox
 
 ## Skills
-Email header analysis
-URL/attachment sandboxing
-IOC extraction
-MITRE ATT&CK mapping
-incident triage
+- Email header analysis
+- URL/attachment sandboxing
+- IOC extraction
+- MITRE ATT&CK mapping
+- Incident triage
 
 Full report: [triage-report.md](./triage-report.md)
