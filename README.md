@@ -1,7 +1,7 @@
 # PhishingEmailAnalysis
 
 ## Overview
-Analyzed a real phishing sample in an isolated sandbox (Any.Run), extracted 
+Analyzed a phishing sample in an isolated sandbox (Any.Run), extracted 
 indicators of compromise, mapped attacker techniques to MITRE ATT&CK, and 
 produced a triage report.
 
