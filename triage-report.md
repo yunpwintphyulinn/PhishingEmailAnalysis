@@ -1,6 +1,7 @@
 # Phishing Triage Report
 
 ## 1. Executive Summary
+A suspicious email impersonating a commercial purchase receipt contained a link directing the recipient to an executable hosted on a raw IP address. Header analysis showed the message was transmitted through authenticated infrastructure associated with the sender domain, while its mass-distribution characteristics and malicious delivery link indicated phishing activity. Threat-intelligence analysis identified malicious detections for the linked resource, although later dynamic retrieval did not recover the original executable payload. The email was therefore classified as malicious with high confidence, while sender-account compromise remained an analyst assessment rather than a confirmed fact.
 
 ## 2. Sample Overview
 - **Subject**: COMMERCIAL PURCHASE RECEIPT ONLINE 27 NOV
