@@ -41,14 +41,13 @@ A suspicious email impersonating a commercial purchase receipt contained a link 
   was still active
 - **Assessment**: sample is confirmed malicious based on VirusTotal detections 
   and file-naming/delivery pattern (fake invoice lure → raw IP → .exe); 
-  live dynamic detonation is inconclusive only because the C2/hosting 
-  infrastructure has since been taken down (sample dates to Dec 2022)
+  The hosting endpoint no longer returned the expected payload at the time of analysis. (sample dates to Dec 2022)
 
 ## 6. Indicators of Compromise
 
 | Type | Value | Context |
 |---|---|---|
-| Compromised sender account | erikajohana.lopez@uptc.edu.co | Legitimate university account, likely compromised (not spoofed) |
+| Sender account — suspected compromise | erikajohana.lopez@uptc.edu.co | Legitimate university account, likely compromised (not spoofed) |
 | Sending infrastructure | mail-wr1-f65.google.com (209.85.221.65) | Google Workspace infra used by uptc.edu.co — legitimate, abused |
 | Malicious URL | hxxp://107.175.247.199/loader/install.exe | Payload delivery link disguised as invoice document |
 | Hosting IP | 107.175.247.199 | Raw IP, no domain — hosts the malicious executable |
