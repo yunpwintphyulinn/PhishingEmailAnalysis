@@ -6,9 +6,9 @@ indicators of compromise, mapped attacker techniques to MITRE ATT&CK, and
 produced a triage report.
 
 ## Tools 
-- Any.Run
 - VirusTotal
-- MXToolbox
+- Hybrid Analysis
+- CyberChef
 
 ## Skills
 - Email header analysis
